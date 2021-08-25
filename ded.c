@@ -50,9 +50,9 @@ int main(){
         return 0;
     }
 
-    float root1, root2;
+    float root1 = 0, root2 = 0;
 
-    int rootcode;
+    int rootcode = -1;
     rootcode = solve (coef1, coef2, coef3, &root1, &root2);
 
     switch (rootcode)
