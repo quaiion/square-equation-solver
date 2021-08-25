@@ -19,7 +19,7 @@ int solve (float a, float b, float c, float* r1, float* r2){
         else return INF_ROOTS;
     }
 
-    if (a == 0 && b && c){
+    if (a == 0 && b != 0 && c != 0){
         *r1 = -c / b;
         *r2 = -c / b;
         return ONE_ROOT;
