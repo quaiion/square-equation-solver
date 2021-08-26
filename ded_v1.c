@@ -22,7 +22,7 @@ int main(){
         return 0;
     }
 
-    double root1 = 0, root2 = 0;
+    double root1 = NAN, root2 = NAN;
 
     int rootcode = -1;
     rootcode = solve (coef1, coef2, coef3, &root1, &root2);
