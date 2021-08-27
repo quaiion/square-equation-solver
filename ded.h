@@ -1,8 +1,8 @@
 #ifndef DED
 #define DED
 
-//! @file   ded_v1.c
-//! @brief  ded_v1 - программа для решения квадратных уравнений.
+//! @file   ded.h
+//! @brief  ded - программа для решения квадратных уравнений
 
 #include <stdio.h>
 #include <assert.h>
