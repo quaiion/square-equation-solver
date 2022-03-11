@@ -4,6 +4,9 @@ void get_coefs (double* coef1, double* coef2, double* coef3) {
     assert (coef1 != NULL);
     assert (coef2 != NULL);
     assert (coef3 != NULL);
+    assert (coef1 != coef2);
+    assert (coef3 != coef2);
+    assert (coef1 != coef3);
 
     while (true) {
         printf ("\nInsert the coefficients (before x^2, before x^1, before x^0):\n");

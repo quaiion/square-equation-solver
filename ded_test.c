@@ -1,6 +1,6 @@
 #include "ded.h"
 
-void run_unit_tests (FILE* file)
+void run_unit_tests (FILE* file);
 
 static bool unit_test (FILE* fptr, int counter);
 
